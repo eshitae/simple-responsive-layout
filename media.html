@@ -4,80 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+        }
+        .food{
+            border: 1px solid yellowgreen;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        /* simple media query */
+       @media screen and (max-width: 576px){
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+       }
+
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="food">
-            <img src="images/my food.jpg" alt="">
-            <h3>Food Item - 1</h3>
-            <P>Price: $100</P>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis pariatur dignissimos eligendi enim, eius accusantium voluptates perspiciatis at reiciendis labore?</p>
+            <img src="images/starfruit.jpg" alt="">
+            <h3>Starfruit</h3>
+            <P>Price: $5</P>
+            <p> <b>Healthy Facts: </b> Starfruit is a low-calorie fruit that is especially beneficial for diabetics. It aids digestion, improves skin glow, and promotes overall health.</p>
         </div>
         <div class="food">
-            <img src="images/my food.jpg" alt="">
-            <h3>Food Item - 2</h3>
-            <P>Price: $200</P>
-            <p>Repellat, maxime eius tenetur voluptate, maiores quibusdam sit dolor sequi minus error commodi aspernatur itaque eaque. Sapiente cum recusandae odit.</p>
+            <img src="images/watermelon 2.jpg" alt="">
+            <h3>Watermelon</h3>
+            <P>Price: $2</P>
+            <p><b>Healthy Facts: </b>   Watermelon keeps the body hydrated, prevents heatstroke in summer, and improves heart health. It is also low in calories, making it a great summer fruit.
+
+            </p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 3</h3>
-            <P>Price: $300</P>
-            <p>Illum, quidem. Voluptatibus rerum illo voluptate atque itaque eaque nulla fugit aliquid facilis magnam, corporis earum odit libero ea harum.</p>
+            <img src="images/passion fruit 2.jpg" alt="">
+            <h3>Passion Fruit</h3>
+            <P>Price: $6</P>
+            <p> <b>Healthy Facts: </b>  Passion fruit contains Vitamin A, C, and fiber, which support digestion and heart health. It also strengthens immunity and keeps the body refreshed. </p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 4</h3>
-            <P>Price: $400</P>
-            <p>Eaque, commodi quos sit quae adipisci expedita labore numquam voluptatum ea similique autem iure excepturi itaque maiores obcaecati placeat a!</p>
+            <img src="images/cherry.webp" alt="">
+            <h3> Cherry</h3>
+            <P>Price: $10</P>
+            <p> <b>Healthy Facts: </b>  Cherry contains anti-inflammatory properties that reduce joint pain and improve sleep quality. It also helps lower the risk of heart disease. </p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 5</h3>
-            <P>Price: $500</P>
-            <p>Enim, sunt incidunt mollitia asperiores, quas eveniet unde nesciunt vitae ipsum labore esse deleniti tempore aut quibusdam officia fugiat numquam.</p>
+            <img src="images/dragon fruit.jpg" alt="">
+            <h3>Dragon Fruit</h3>
+            <P>Price: $5 per piece</P>
+            <p><b>Healthy Facts: </b>  Dragon fruit is rich in Vitamin C, which brightens skin and boosts immunity. It helps manage diabetes, aids digestion, and supports weight loss. </p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 6</h3>
-            <P>Price: $600</P>
-            <p>Fugiat ipsa culpa explicabo iusto corrupti odio atque, exercitationem placeat accusantium, architecto perspiciatis inventore soluta aperiam ducimus, commodi dolorum iste.</p>
+            <img src="images/mango.webp" alt="">
+            <h3>Mango</h3>
+            <P>Price: $4 per kg</P>
+            <p><b>Healthy Facts: </b> Mango is rich in Vitamin A and C, which are beneficial for the eyes, skin, and immune system. It also improves digestion and adds a refreshing taste to the diet.</p>
         </div>
         <div class="food">
-            <img src="images/my food.jpg" alt="">
-            <h3>Food Item - 7</h3>
-            <P>Price: $700</P>
-            <p>A, modi. Voluptate nihil quasi pariatur ab nam? Voluptate in hic ex sequi, vitae quo veritatis amet ipsa quisquam quos.</p>
+            <img src="images/longan.jpg" alt="">
+            <h3> Longan</h3>
+            <P>Price: $6 per kg</P>
+            <p> <b>Healthy Facts: </b> Longan helps reduce stress and improve sleep quality. It boosts immunity and is rich in iron, which is good for blood health.</p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 8</h3>
-            <P>Price: $800</P>
-            <p>Ipsa tempora provident incidunt, beatae illum porro perferendis quasi perspiciatis, fugiat optio id minima nesciunt non eius consequuntur sequi repudiandae.</p>
+            <img src="images/black berry.jpg" alt="">
+            <h3>Blackberry</h3>
+            <P>Price: $7 per kg</P>
+            <p><b>Healthy Facts: </b> Blackberry is packed with antioxidants that are good for skin and hair. It also boosts immunity and provides essential vitamins like Vitamin K and C. </p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 9</h3>
-            <P>Price: $900</P>
-            <p>Quidem nobis, deleniti dolorum maiores, est odit provident totam et placeat quam incidunt vel. Accusantium corporis reprehenderit repellendus vero ut.</p>
+            <img src="images/apple 2.webp" alt="">
+            <h3>Apple</h3>
+            <P>Price: $4 per kg</P>
+            <p> <b>Healthy Facts: </b> Apple is rich in Vitamin C and fiber, which helps boost immunity, reduce cholesterol, and improve heart health. It also aids digestion and supports weight management. </p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 10</h3>
-            <P>Price: $1000</P>
-            <p>At repellendus fugit a quidem quisquam beatae impedit temporibus doloremque, quae excepturi aperiam dignissimos, expedita tenetur, sequi quibusdam ipsum voluptates.</p>
+            <img src="images/persimon.jpg" alt="">
+            <h3>Persimmon</h3>
+            <P>Price: $6 per kg</P>
+            <p><b>Healthy Facts: </b> Persimmon is a sweet and nutrient-rich fruit packed with Vitamin A, Vitamin C, and powerful antioxidants. Persimmon also promotes heart health by reducing bad cholesterol levels.</p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 11</h3>
-            <P>Price: $1100</P>
-            <p>Similique molestiae minus dolore quibusdam odio accusamus quisquam excepturi expedita fugit porro. Quis, recusandae quo! Tenetur harum quibusdam cumque doloribus?</p>
+            <img src="images/foreign fruit.jpg" alt="">
+            <h3>Mangosteen</h3>
+            <P>Price: $8 per kg</P>
+            <p> <b>Healthy Facts: </b>  Mangosteen is loaded with antioxidants that help fight cancer and reduce inflammation. It also boosts the immune system and promotes healthy skin. </p>
         </div>
         <div class="food">
-            <img src="images/my food" alt="">
-            <h3>Food Item - 12</h3>
-            <P>Price: $1200</P>
-            <p>Ratione sint ipsum ipsam, optio asperiores cupiditate facilis consectetur sapiente libero quam atque reiciendis, expedita repellendus consequatur quibusdam voluptates ad.</p>
+            <img src="images/rambutan.jpg" alt="">
+            <h3>Rambutan</h3>
+            <P>Price: $8 per kg</P>
+            <p>  <b>Healthy Facts: </b> Rambutan is high in iron, which prevents anemia, and it helps keep skin healthy. It also boosts immunity and provides energy.</p>
         </div>
     </div>
     
